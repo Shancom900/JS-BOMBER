@@ -65,7 +65,7 @@ def bann_text():
     if ASCII_MODE:
         logo = ""
     version = "Version: "+__VERSION__
-    contributors = "Contributors: "+" ".join(__CONTRIBUTORS__)
+    contributors = "Contributors: "+"shanu"
     print(random.choice(ALL_COLORS) + logo + RESET_ALL)
     mesgdcrt.SuccessMessage(version)
     mesgdcrt.SectionMessage(contributors)
